@@ -50,4 +50,4 @@ jobs:
           app-name: 'farazapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1EBA2E815326468DAFE314DA3E9B4C67 }}
-          package: '*.war'
+          package: '*.jar'
